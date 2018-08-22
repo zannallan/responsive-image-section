@@ -1,7 +1,17 @@
-inherit: responsive-website
-
 repo: 'responsive-image-section'
 canvasCourse: 'web-dev-2'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css
+  - body-margin-0
+  - img-flex
+  - border-box
+  - responsive-css
+  - responsive-font-sizes
+  - screenshots-all
 
 html:
   - path: 'index.html'
@@ -20,9 +30,6 @@ html:
 css:
   - path: 'css/main.css'
     has:
-      - ['body', 'margin', '0']
-      - ['.img-flex', 'display', 'block']
-      - ['.img-flex', 'width', '100%']
       - ['a', 'background-color', '#555']
       - ['a', 'border-radius', '4px']
     search:
@@ -37,10 +44,6 @@ css:
       - 'text-align: left'
     search_not:
       - ['float: (left|right)', 'This layout cannot be properly created when using `float`']
-
-screenshots:
-  - path: 'index.html'
-    sizes: [320, 400, 608, 960, 1440]
 
 functionality:
   - path: 'index.html'
