@@ -27,6 +27,7 @@ deliverables: "1 HTML file, 1 CSS file, images"
 - *Expected class names:* `.img-flex`
 - *Standard media query widths:* `25em`, `38em`, `60em`, `90em`
 - *Standard text sizes & line heights:* `100%/1.3`, `110%/1.4`, `120%/1.5`, `130%/1.5`
+- *Content max-width:*: `50em`
 
 ---
 

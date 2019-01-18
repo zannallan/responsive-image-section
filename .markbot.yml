@@ -34,16 +34,14 @@ css:
       - ['a', 'border-radius', '4px']
     search:
       - 'display: inline-block'
+      - 'display: flex'
+      - 'flex-wrap: wrap'
+      - 'align-items: center'
       - 'margin'
       - 'padding'
-      - 'max-width'
+      - 'max-width: 50em'
       - 'width'
-      - 'vertical-align: middle'
       - 'background-color: #e2e2e2'
-      - 'text-align: center'
-      - 'text-align: left'
-    search_not:
-      - ['float: (left|right)', 'This layout cannot be properly created when using `float`']
 
 functionality:
   - path: 'index.html'
